@@ -4,6 +4,7 @@
 - Picom
 - Rofi
 - fzf
+- scrot
 
 # Applications
 
@@ -28,6 +29,7 @@ sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emula
 sudo update-alternatives --config x-terminal-emulator
 ```
 
+
 ## Picom
 
 ```bash
@@ -39,6 +41,7 @@ picom --config ~/.config/picom/picom.conf &
 It's just better dmenu.
 Reference: https://github.com/davatorium/rofi
 
+
 ## fzf
 
 If Ctrl + R doesn't trigger history fuzzy finding - read this:
@@ -49,3 +52,22 @@ Just find source `key-bindings.zsh` file. It can be here: `/usr/share/doc/fzf/ex
 source /usr/share/doc/fzf/examples/key-bindings.zsh
 ```
 in your `.zshrc` file.
+
+
+## scrot
+
+### Installation
+
+Just install with
+
+```bash
+sudo apt-get install scrot
+```
+
+
+### Usage
+
+Use that command, and select area that you want to create screenshoot with
+```bash
+scrot -s
+```
