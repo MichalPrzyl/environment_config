@@ -9,6 +9,19 @@
 # Applications
 
 ## i3
+
+### Polish language
+Command to use in terminal:
+
+```bash
+setxkbmap -layout pl
+```
+
+Or add this to your i3 config file
+```
+exec "setxkbmap -layout pl"
+```
+
 ## Alacritty
 
 ```bash
