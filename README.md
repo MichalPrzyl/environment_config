@@ -11,7 +11,10 @@
 ## i3
 
 ### Polish language
+
 Command to use in terminal:
+
+// FIXME: This doesn't work at all. Both with "" and without.
 
 ```bash
 setxkbmap -layout pl
