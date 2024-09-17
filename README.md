@@ -21,11 +21,14 @@ setxkbmap -layout pl
 ```
 
 Or add this to your i3 config file
+
 ```
 exec "setxkbmap -layout pl"
 ```
 
 ## Alacritty
+
+You have to install cargo first. Just follow steps from google.
 
 ```bash
 cargo install alacritty
@@ -40,11 +43,15 @@ sudo apt-get install libfontconfig1-dev
 
 ### Setting alacritty as default terminal
 
+After creating new terminal, alacritty starts up.
+
 ```bash
 sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator $(which alacritty) 50
 sudo update-alternatives --config x-terminal-emulator
 ```
 
+To check current terminal you can use `echo $TERM`.
+If all is set up correctly you'll see `alacritty`.
 
 ## Picom
 
