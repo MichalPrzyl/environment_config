@@ -8,6 +8,14 @@
 
 # Applications
 
+## Nvim clipboard
+
+Use that to allow copy nvim selection into systme clipboard.
+
+```
+sudo apt-get install xclip
+```
+
 ## i3
 
 ### Polish language
